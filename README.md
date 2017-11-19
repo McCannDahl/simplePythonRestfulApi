@@ -59,8 +59,8 @@ Step 4:
 <code>
 chmod a+x app.py
 </code>
-
-<code>
+ and 
+ <code>
 ./app.py
 </code>
 
@@ -68,14 +68,17 @@ Congrats! Your API is now listening on port 5000
 
 in a seprate terminal post,get,put, or delete using these:
 
+
 <code>
 curl -i http://localhost:5000/incomes
 </code>
 
+ --------------------------
 <code>
 curl -i http://localhost:5000/incomes/6000
 </code>
-
+ 
+--------------------------
 <code>
 curl -i -H "Content-Type: application/json" -X POST -d '{"description":"salary5", "amount":45}' http://localhost:5000/incomes
 </code>
