@@ -82,3 +82,20 @@ curl -i http://localhost:5000/incomes/6000
 <code>
 curl -i -H "Content-Type: application/json" -X POST -d '{"description":"salary5", "amount":45}' http://localhost:5000/incomes
 </code>
+
+
+
+Note: If you are running on a server, to make HTTP inbound open for everyone, change
+
+```python
+
+    app.run(debug=True)
+
+```
+To
+
+```python
+
+    app.run(host= '0.0.0.0')
+
+```
