@@ -83,7 +83,18 @@ curl -i http://localhost:5000/incomes/6000
 curl -i -H "Content-Type: application/json" -X POST -d '{"description":"salary5", "amount":45}' http://localhost:5000/incomes
 </code>
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 Note: If you are running on a server, to make HTTP inbound open for everyone, change
 
