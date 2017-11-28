@@ -110,3 +110,5 @@ To
     app.run(host= '0.0.0.0')
 
 ```
+And follow these instructions to keep the python script running while logged out:
+https://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session
